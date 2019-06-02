@@ -134,7 +134,7 @@ function App() {
           <Typography variant="h6" className={style.title}>
             News
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button color="inherit">dance2die</Button>
         </Toolbar>
       </AppBar>
       <Drawer
@@ -187,7 +187,12 @@ function App() {
         <div className={style.toolbar} />
         <Grid container direction="column">
           <Box className={style.box}>
-            <Typography variant="h2" align="center" gutterBottom>
+            <Typography
+              className={style.title}
+              variant="h2"
+              align="center"
+              gutterBottom
+            >
               Welcome to Sung's demo
             </Typography>
           </Box>
